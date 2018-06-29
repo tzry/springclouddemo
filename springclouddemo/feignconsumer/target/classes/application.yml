@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: FEIGNCONSUMER
+
+server:
+  port: 8763  #the port on which the application runs
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/

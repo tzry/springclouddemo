@@ -1,0 +1,12 @@
+server:
+  port: 8761  #the port on which the application runs
+
+eureka:
+  instance:
+    hostname: 127.0.0.1 #the hostname of the eureka instance
+    prefer-ip-address:  true #whether prefer ip address to register on the Eureka Server or not
+  client:
+    registerWithEureka: false #if it is false, the instance will only host as the Eureka Server, not as the client
+    fetchRegistry:  false #whether it will be registered on the Eureka Server
+    serviceUrl:
+      defaultZone:  http://${eureka.instance.hostname}:${server.port}/eureka/ #the default zone of the Eureka Server

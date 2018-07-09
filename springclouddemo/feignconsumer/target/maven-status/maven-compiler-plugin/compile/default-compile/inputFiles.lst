@@ -1,0 +1,4 @@
+/Volumes/Transcend/springCloudTest/springclouddemo/feignconsumer/src/main/java/com/gerry/springcloudtest/feignservice/CalculateService.java
+/Volumes/Transcend/springCloudTest/springclouddemo/feignconsumer/src/main/java/com/gerry/springcloudtest/FeignConsumerApplication.java
+/Volumes/Transcend/springCloudTest/springclouddemo/feignconsumer/src/main/java/com/gerry/springcloudtest/controller/TestController.java
+/Volumes/Transcend/springCloudTest/springclouddemo/feignconsumer/src/main/java/com/gerry/springcloudtest/feignservice/fallback/CalculateServiceFallBack.java

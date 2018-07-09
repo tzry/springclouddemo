@@ -1,0 +1,4 @@
+server:
+  port: 8769  #the port on which the application runs
+val:
+  test: 11

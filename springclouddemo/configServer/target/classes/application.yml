@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: CONFIG-SERVER
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file://classpath:/configDir
+
+server:
+  port: 8768  #the port on which the application runs
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
+
+logging:
+  level:
+    com:
+      netflix:
+        discovery: 'OFF'
+    org:
+      springframework:
+        cloud: 'DEBUG'

@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: config-testclient
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: CONFIG-SERVER
+
+server:
+  port: 8769  #the port on which the application runs
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/

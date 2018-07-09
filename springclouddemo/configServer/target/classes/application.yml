@@ -4,8 +4,9 @@ spring:
   cloud:
     config:
       server:
-        native:
-          search-locations: file://classpath:/configDir
+        git:
+          uri: https://github.com/tzry/springclouddemo.git
+          search-paths: /springclouddemo/configServer/src/main/configDir
 
 server:
   port: 8768  #the port on which the application runs

@@ -6,7 +6,7 @@ spring:
       server:
         git:
           uri: https://github.com/tzry/springclouddemo.git
-          basedir: springclouddemo/configServer/src/main/configDir
+          search-paths: /springclouddemo/configServer/src/main/configDir
 
 server:
   port: 8768  #the port on which the application runs

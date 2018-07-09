@@ -6,15 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="configServer" />
+        <module name="configtestclient" />
         <module name="eurekaServer" />
         <module name="feignconsumer" />
         <module name="producer1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="configServer" target="1.8" />
+      <module name="configtestclient" target="1.8" />
+      <module name="contractConsumer" target="1.8" />
+      <module name="contractProvider" target="1.8" />
       <module name="eurekaServer" target="1.8" />
       <module name="feignconsumer" target="1.8" />
       <module name="producer1" target="1.8" />
+      <module name="ribbonconsumer" target="1.8" />
       <module name="springclouddemo" target="1.8" />
       <module name="springcloudtest" target="1.8" />
     </bytecodeTargetLevel>

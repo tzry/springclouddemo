@@ -8,6 +8,7 @@
     <file url="file://$PROJECT_DIR$/contractProvider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaServer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/feignconsumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/producer1" charset="UTF-8" />
   </component>
 </project>

@@ -1,0 +1,23 @@
+server:
+  port: 8770  #the port on which the application runs
+
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      routes:
+        - id: PRODUCER1       #the unique id of the route
+          uri: lb://PRODUCER1 #the service which is redirected to
+          predicates:
+          - Path= /api/**     #only catch the request which meets the rule
+          filters:
+          - StripPrefix=1     #filter the request uri to redirect to the service
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
+

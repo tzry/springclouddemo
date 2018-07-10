@@ -10,6 +10,7 @@
         <module name="configtestclient" />
         <module name="eurekaServer" />
         <module name="feignconsumer" />
+        <module name="gateway" />
         <module name="producer1" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
       <module name="contractProvider" target="1.8" />
       <module name="eurekaServer" target="1.8" />
       <module name="feignconsumer" target="1.8" />
+      <module name="gateway" target="1.8" />
       <module name="producer1" target="1.8" />
       <module name="ribbonconsumer" target="1.8" />
       <module name="springclouddemo" target="1.8" />

@@ -12,6 +12,8 @@
         <module name="feignconsumer" />
         <module name="gateway" />
         <module name="producer1" />
+        <module name="zipkinTestConsumer" />
+        <module name="zipkinTestProducer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,6 +28,9 @@
       <module name="ribbonconsumer" target="1.8" />
       <module name="springclouddemo" target="1.8" />
       <module name="springcloudtest" target="1.8" />
+      <module name="zipkinServer" target="1.8" />
+      <module name="zipkinTestConsumer" target="1.8" />
+      <module name="zipkinTestProducer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

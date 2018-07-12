@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/contractConsumer/pom.xml" />
         <option value="$PROJECT_DIR$/contractProvider/pom.xml" />
         <option value="$PROJECT_DIR$/ribbonconsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkinServer/pom.xml" />
       </set>
     </option>
   </component>

@@ -17,6 +17,8 @@
         <module>gateway</module>
         <module>zipkinTestProducer</module>
         <module>zipkinTestConsumer</module>
+        <module>admin</module>
+        <module>adminClient</module>
     </modules>
 
     <parent>

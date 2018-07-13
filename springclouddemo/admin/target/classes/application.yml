@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: ADMIN-SERVER
+  boot:
+    admin:
+      notify:
+        mail:
+          from: 15267069589@163.com
+          to:   15267069589@163.com
+          enabled: true
+  mail:
+    host: smtp.163.com
+    port: 25
+    username: 15267069589@163.com
+    password: aa111111
+#    properties:
+#      mail:
+#        smtp:
+#          auth: true
+
+server:
+  port: 8775  #the port on which the application runs
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"

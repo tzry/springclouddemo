@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="admin" />
+        <module name="adminClient" />
         <module name="configServer" />
         <module name="configtestclient" />
         <module name="eurekaServer" />
@@ -17,6 +19,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="admin" target="1.8" />
+      <module name="adminClient" target="1.8" />
       <module name="configServer" target="1.8" />
       <module name="configtestclient" target="1.8" />
       <module name="contractConsumer" target="1.8" />
